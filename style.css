@@ -27,30 +27,6 @@ main {
     perspective: 2000px;
 }
 
-
-@keyframes turningPage1 {
-    100% {
-        transform: rotateY(-180deg);
-        z-index: 11;
-    }
-}
-
-@keyframes turningPage2 {
-    100% {
-        transform: rotateY(-180deg);
-        z-index: 12;
-    }
-}
-
-@keyframes turningPage3 {
-    0%{
-        z-index: 13;
-    }
-    100% {
-        transform: rotateY(-180deg);
-        z-index: 13;
-    }
-}
 .page {
     position: absolute;
     right: 0;
@@ -80,18 +56,122 @@ main {
 }
 
 .page.page--1 {
-    z-index: 10;
+    z-index: 100;
     animation: turningPage1 1s ease-in forwards;
     animation-delay: 1s;
 }
-
 .page.page--2 {
-    z-index: 9;
+    z-index: 99;
     animation: turningPage2 1s ease-in forwards;
     animation-delay: 3s;
 }
 .page.page--3 {
-    z-index: 8;
+    z-index: 98;
     animation: turningPage3 1s ease-in forwards;
     animation-delay: 5s;
+}
+.page.page--4 {
+    z-index: 97;
+    animation: turningPage4 1s ease-in forwards;
+    animation-delay: 7s;
+}
+.page.page--5 {
+    z-index: 96;
+    animation: turningPage5 1s ease-in forwards;
+    animation-delay: 9s;
+}
+.page.page--6 {
+    z-index: 95;
+    animation: turningPage6 1s ease-in forwards;
+    animation-delay: 11s;
+}
+.page.page--7 {
+    z-index: 94;
+    animation: turningPage7 1s ease-in forwards;
+    animation-delay: 13s;
+}
+
+.page.page--8 {
+    z-index: 93;
+    animation: turningPage8 1s ease-in forwards;
+    animation-delay: 15s;
+}
+
+
+@keyframes turningPage1 {
+    0% {
+        z-index: 101;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 101;
+    }
+}
+
+@keyframes turningPage2 {
+    0% {
+        z-index: 102;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 102;
+    }
+}
+
+@keyframes turningPage3 {
+    0% {
+        z-index: 103;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 103;
+    }
+}
+@keyframes turningPage4 {
+    0% {
+        z-index: 104;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 104;
+    }
+}
+
+@keyframes turningPage5 {
+    0% {
+        z-index: 105;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 105;
+    }
+}
+
+@keyframes turningPage6 {
+    0% {
+        z-index: 106;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 106;
+    }
+}
+@keyframes turningPage7 {
+    0% {
+        z-index: 107;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 107;
+    }
+}
+
+@keyframes turningPage8 {
+    0% {
+        z-index: 108;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 109;
+    }
 }
