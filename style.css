@@ -90,11 +90,15 @@ main {
     animation: turningPage7 1s ease-in forwards;
     animation-delay: 13s;
 }
-
 .page.page--8 {
     z-index: 93;
     animation: turningPage8 1s ease-in forwards;
     animation-delay: 15s;
+}
+.page.page--9 {
+    z-index: 92;
+    animation: turningPage9 1s ease-in forwards;
+    animation-delay: 17s;
 }
 
 
@@ -165,10 +169,18 @@ main {
         z-index: 107;
     }
 }
-
 @keyframes turningPage8 {
     0% {
         z-index: 108;
+    }
+    100% {
+        transform: rotateY(-180deg);
+        z-index: 108;
+    }
+}
+@keyframes turningPage9 {
+    0% {
+        z-index: 109;
     }
     100% {
         transform: rotateY(-180deg);
